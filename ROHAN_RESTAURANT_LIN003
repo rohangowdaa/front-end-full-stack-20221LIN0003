@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DEISEL CAFE</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #9c0404;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+    }
+    nav a:hover {
+      background-color: #555;
+    }
+    .main-image {
+      width: 100%;
+      height: 500px;
+      background-image: url('https://d4t7t8y8xqo0t.cloudfront.net/resized/720X480/restaurant%2F121556%2Frestaurant220230127085657.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    .content {
+      padding: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>THE BIKERS CAFE</h1>
+    <p>BIKERS PITSTOP</p>
+  </header>
+  <nav>
+    <a href="https://www.eazydiner.com/delhi-ncr/the-bikers-cafe-sector-54-gurgaon-121556">Home</a>
+    <a href="https://www.eazydiner.com/delhi-ncr/the-bikers-cafe-sector-54-gurgaon-121556/menu">Menu</a>
+    <a href="https://www.eazydiner.com/delhi-ncr/the-bikers-cafe-sector-54-gurgaon-121556">About</a>
+    <a href="https://www.eazydiner.com/delhi-ncr/the-bikers-cafe-sector-54-gurgaon-121556"></a>
+  </nav>
+  <div class="main-image"></div>
+  <div class="content">
+    <h2>About Us</h2>
+    <p>If you want to enjoy authentic Chinese, North Indian, Continental or Italian cuisine, The Biker’s Cafe at Golf Course Road in Gurgaon would be an ideal option. Nice subtle decor along with Live screening of the matches, the place is hot favourite with the youngsters. It is a neat and cozy restaurant. The ambience of the place is nice and the nice numbers are being placed all the time.
+
+        Some of the signature dishes here are Indian Tandoori platter, Cottage Cheese Lasooni Palak Spring Rolls, Rajma Gaulati Kebab, Chilli Chicken, Kung Pao Tofu, Daal Makhani, Highway Curry, Tawa Chicken, Palak Paneer and different Pizzas with variety of toppings. The meat dishes have adequate meat and have rich aromatic flavors. The gigantic piece of Naan with Delhi 6 Curry is simply incredible. Monthly specials make the place interesting for the guests. The Indian Kababs served here are quite different. Variety of cocktail drinks and fresh Brewed Beer is the highlight of this place.</p>
+    <h2>Our Menu</h2>
+    <h3>Starters</h3>
+    <ul>
+      <li>
+        <strong>Paneer Tikka</strong><br>
+        Cubes of paneer (Indian cottage cheese) marinated in spices and grilled, served with mint chutney.
+      </li>
+      <li>
+        <strong>Chicken Tikka</strong><br>
+        Tender chicken pieces marinated in yogurt and spices, grilled to perfection, served with mint chutney.
+      </li>
+    </ul>
+    <h3>Main Courses</h3>
+    <ul>
+      <li>
+        <strong>Butter Chicken</strong><br>
+        Succulent pieces of chicken cooked in a creamy tomato and butter sauce, served with naan bread or rice.
+      </li>
+      <li>
+        <strong>Dal Makhani</strong><br>
+        Slow-cooked black lentils simmered with tomatoes, garlic, and cream, garnished with fresh coriander, served with rice or naan.
+      </li>
+    </ul>
+    <h3>Beverages</h3>
+    <ul>
+      <li>
+        <strong>Fresh Lime Soda</strong><br>
+        Sparkling soda infused with fresh lime juice and a hint of sweetness.
+      </li>
+      <li>
+        <strong>Indian Filter Coffee</strong><br>
+        Strong, aromatic coffee brewed in the traditional Indian filter method.
+      </li>
+    </ul>
+    <h2>Book a Table</h2>
+    <form action="book_table.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required><br><br>
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time" required><br><br>
+      <input type="submit" value="Book Now">
+    </form>
+  </div>
+  <footer>
+    <p>&copy; 2024 THE BIKERS CAFE. All rights reserved.</p>
+  </footer>
+</body>
+</html>
