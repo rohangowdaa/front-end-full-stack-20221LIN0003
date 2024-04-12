@@ -1,157 +1,48 @@
-<html lang="en">
- 
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, 
-                   initial-scale=1.0">
-<title>Resume</title>
-        <style>
-        header {
-            background-color: #333;
-            color: #fff;
-            padding : 10px;
-            text-align: center;
-            
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding : 10px;
-            text-align: center;
-        }
-        p.double {border-style: double;}
-        body {
-            color: #fff;
-            border: 5px solid #fff;
-        }
-        
-        
-        </style>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-
 <body>
-    <body background="https://accpl.co/wp-content/uploads/2017/09/blockchain_blog_2.jpg">
-    <header>
-        <h1>Resume</h1>
-        <marquee behaviour="scroll" direction="left" scrollamount="10">Chandana K</marquee>
-        
-    </header>
-    
-    <p class="double"></p>
-    </style>
-    <div class="full">
-        <div class="left">
-            <div class="image">
-                <img align="right" src="vene.jpg"
-                     alt="gfg-logo"
-                        
-                     style="width: 150px;
-                            height:150px;">
-            </div>
-            <body style="background-color:pink;">
-            <div class="Contact">
-                <h2>Contact</h2>
-                <p>
-                      <b>Email id:</b>chandana.k@gmail.com
-                  </p>
-                <p>
-                      <b>Mobile no :</b>1234567890
-                  </p>
-            </div>
-            <div class="Skills">
-                <h2>Skills</h2>
-                <ul>
-                    <li>
-                          <b>Programming Languages :
-                            Python, Java, C++</b>
-                      </li>
-                    <li>
-                          <b>Frontend : HTML5, CSS3,
-                            JavaScript, React</b>
-                      </li>
-                    <li>
-                          <b>Backend : Node.js</b>
-                      </li>
-                </ul>
-            </div>
-            <div class="Language">
-                <h2>Language</h2>
-                <ul>
-                    <li>English</li>
-                    <li>Hindi</li>
-                    <l1>Kannada</l1>
-                </ul>
-            </div>
-            <div class="Hobbies">
-                <h2>Hobbies</h2>
-                <ul>
-                    <li>Painting</li>
-                    <li>Swimming</li>
-                </ul>
-            </div>
-        </div>
-        <div class="right">
-            <div class="name">
-                <h1>Presidency University</h1>
-            </div>
-            <div class="title">
-                <p>Web Developer</p>
-            </div>
-            <div class="Summary">
-                <h2>Summary</h2>
-                <p>
-                      To secure a challenging position in a
-                    reputable organization
-                    to expand my learning knowledge and skill
-                </p>
-            </div>
-            
-            <div class="Education">
-                <h2>Education</h2>
-                <table>
-                    <tr>
-                        <th>University/college  </th>
-                        <th>Passing year  </th>
-                        <th>percentage/cgpa</th>
-                    </tr>
-                    <tr>
-                        <td>xyz</td>
-                        <td>2020</td>
-                        <td>8.9</td>
-                    </tr>
-                    <tr>
-                        <td>pqr</td>
-                        <td>2018</td>
-                        <td>89%</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="project">
-                <ul>
-                    <li>
-                        <h2>Project1</h2>
-                        <p>
-                              This project is based on html
-                            & used React
-                          </p>
-                    </li>
-                    <li>
-                        <h2>Project2</h2>
-                        <p>
-                              This project is based on html
-                            & used React
-                          </p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <footer>
-        <p>&copy; 2024 My Resume.All rights are reserved.</p>
-        <a href="#">Linkdin</a>
-        <a href="#">Social Media</a>
-    </footer>
+    <style>
+        h1 {text-align: center;}
+        h2 {text-align: center;}
+        p {text-align: center;}
+        div {text-align: center;}
+        img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+        </style>
+  <header>
+    <h1>Welcome to my website</h1>
+  </header>
+
+  <section>
+    <h2>About me</h2>
+    <p>I AM ROHAN GOWDA STUDYING COMPUTER SCIENCE AND ENGINEERING AT PRESIDENCY UNIVERSITY,RAJANKUNTE,BENGALURU</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQzQ3Q5z5blWjEJ3WRYGb4yCdG4R9jPWM0yw&usqp=CAU" alt="A picture of me"  class="center">
+  </section>
+
+  <section>
+    <h2>My Personal info : </h2>
+    <p>I'M FROM BENGALURU.<br>
+        I'M 26 YEARS OLD.<br>
+        MY BIRTHDAY IS ON 8TH JULY<br>
+        MOBILE PHONE NUMBER IS 9353682700<br>
+        MY HOBBY IS GYM,TRAVELLING,READINGV BOOKS, ETC</p>
+    <p>
+      <a href="post1.html">My linkedin profile LINK</a>
+    </p>
+    <p>
+      <a href="post2.html">My gmail LINK</a>
+    </p>
+  </section>
+
+  <footer>
+    <h1>Copyright ©️ 2021</h1>
+  </footer>
+
 </body>
- 
 </html>
