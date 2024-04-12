@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>
+            "Online library"
+        </title>
+    </head>
+    <body>
+        <marquee direction="right"><img src="pres.jpg"></marquee>
+        <marquee direction="right"<h2></h2><h3>Welcome to Presidency!</h3></marquee>
+        <h1>This is Presidency Online Library</h1>
+        <pre>
+            <p>Welcome to Presidency Online Library
+        Here you can find all the books that are available in the library. </p>
+           <b><p align = "left">WEB     IAMGES    MAP      MOREINFO </p></b>
+            <p align = "right">This is available at central library</p>
+            <body style="background-color:pink;">
+                <a href="https://presidencyuniversity.in/">Home</a>
+                <p><span style="color:blue">Presidency University</span> </p>
+        </pre>
+        <hr> 
+        
+        <ol>
+            <h2>Book Names : </h2>
+            <li>Giver</li>
+            <li>Harry Poter</li>
+            <li>Beginning</li>
+          </ol>
+          <h3><b><i>Additional references</i></b></h3>
+        
+            
+        <table border="1">
+            <tr>
+                <th>Engineering books</th>
+                <th>Law books</th>
+            </tr>
+        <tr>
+            <td>Cs</td>
+            <td>Administrative law</td>
+           
+        </tr>
+        <u><p align = "left"> For more information : </p></u>
+        <p> <b>CONTACT US ON</b></p>
+        8745638362
+        <br>
+        <img src="books.jpg " width="300" height="250"/>
+    </body>
+</html>
